@@ -161,9 +161,7 @@ class AFFINITYBRIDGE_PT_RenderSettingPanel(bpy.types.Panel):
             col.prop(view_layer, "pass_cryptomatte_depth", text="Levels")
 
             if context.engine == 'BLENDER_EEVEE':
-                col.prop(view
-
-_layer, "use_pass_cryptomatte_accurate",
+                col.prop(view_layer, "use_pass_cryptomatte_accurate",
                         text="Accurate Mode")
             
         elif context.scene.render.engine == 'BLENDER_EEVEE':
