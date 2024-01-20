@@ -143,7 +143,7 @@ classes = [
     AFFINITYBRIDGE_Preferences,
     AFFINITYBRIDGE_MT_CompositPanel,
     ot.AFFINITYBRIDGE_OT_SetOpenEXR_RenderLayer,
-    ot.AFFINTYBRIDGE_OT_SetOpenEXR_Selected,
+    ot.AFFINITYBRIDGE_OT_SetOpenEXR_Selected,
     ot.AFFINITYBRIDGE_OT_Photo,
     ot.AFFINITYBRIDGE_OT_Reload,
     ui.AFFINITYBRIDGE_PT_Panel,
