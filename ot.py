@@ -182,9 +182,7 @@ class AFFINITYBRIDGE_OT_SetOpenEXR_RenderLayer(bpy.types.Operator):
             output_sockets_enable.append(enables)
         output_sockets_dict = dict(zip(output_sockets_name, output_sockets_enable))
         
-        # Extract only the visible ones from
-
- all sockets of the node
+        # Extract only the visible ones from all sockets of the node
         for name, enable in list(output_sockets_dict.items()):
             if enable == False:
                 output_sockets_dict.pop(name)
